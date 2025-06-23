@@ -11,6 +11,8 @@ from .const import (
     DOMAIN,
     GRILL_MIN_TEMP_C,
     GRILL_MIN_TEMP_F,
+    GRILL_MAX_TEMP_C,
+    GRILL_MAX_TEMP_F,
     GRILL_MODE_COOL_DOWN,
     GRILL_MODE_CUSTOM_COOK,
     GRILL_MODE_IDLE,
@@ -127,9 +129,9 @@ class TraegerClimateEntity(TraegerBaseClimate):
     @property
     def max_temp(self):
         """Return the maximum temperature."""
-        if self.grill_limits is None:
-            return self.min_temp
-        return self.grill_limits["max_grill_temp"]
+        if self.grill_units == UnitOfTemperature.CELSIUS:
+            return GRILL_MAX_TEMP_C
+        return GRILL_MAX_TEMP_F
 
     @property
     def min_temp(self):

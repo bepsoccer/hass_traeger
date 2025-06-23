@@ -2,16 +2,11 @@
   "domain": "traeger",
   "name": "Traeger",
   "codeowners": [
-    "@krbaker",
-    "@njobrien1006",
-    "@noelbundick",
-    "@sebirdman",
-    "@stephenpapierski",
-    "@Velines"
+    "@bepsoccer"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/njobrien1006/hass_traeger",
+  "documentation": "https://github.com/bepsoccer/hass_traeger",
   "iot_class": "cloud_push",
-  "issue_tracker": "https://github.com/njobrien1006/hass_traeger/issues",
-  "version": "2024.12.06"
+  "issue_tracker": "https://github.com/bepsoccer/hass_traeger/issues",
+  "version": "2025.06.23"
 }

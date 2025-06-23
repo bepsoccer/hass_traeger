@@ -43,6 +43,9 @@ GRILL_MODE_SLEEPING = 2  # Sleeping (Power switch on, screen off)
 # these are the min temps the traeger app would set
 GRILL_MIN_TEMP_C = 75
 GRILL_MIN_TEMP_F = 165
+# these are the max temps the traeger app would set
+GRILL_MAX_TEMP_C = 260
+GRILL_MAX_TEMP_F = 500
 
 # Super Smoke is available until this temperature
 SUPER_SMOKE_MAX_TEMP_C = 107
