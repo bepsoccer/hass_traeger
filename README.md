@@ -1,10 +1,15 @@
-# Traeger HASS component
+# HomeAssistant(hass) Traeger Component
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE)
 [![hacs][hacsbadge]][hacs]
 
+[![HACS](https://github.com/njobrien1006/hass_traeger/actions/workflows/validate.yml/badge.svg)](https://github.com/njobrien1006/hass_traeger/actions/workflows/validate.yml)
+[![LINT](https://github.com/njobrien1006/hass_traeger/actions/workflows/lint.yml/badge.svg)](https://github.com/njobrien1006/hass_traeger/actions/workflows/lint.yml)
+
 _Component to integrate with [Traeger WiFire Grills][traeger]._
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=njobrien1006&repository=hass_traeger&category=integration)
 
 **This component will set up the following platforms.**
 
@@ -16,10 +21,20 @@ Platform | Description
 `switch` | Allow SuperSmoke, Keepwarm, and connectivity switch
 `binary sensor ` | Show values of boolean entities
 
-![device][deviceimg]
-![lovelace][lovelaceimg]
-![grill][grillimg]
-![probe][probeimg]
+## Examples
+
+| Native Devices           |
+| ------------------------ |
+| ![device][deviceimg]     |
+
+| Grill Climate      | Probe Climate      |
+| ------------------ | ------------------ |
+| ![grill][grillimg] | ![probe][probeimg] |
+
+| Example Lovelace         |
+| ------------------------ |
+| ![lovelace][lovelaceimg] |
+
 
 ## Installation (HACS)
 
